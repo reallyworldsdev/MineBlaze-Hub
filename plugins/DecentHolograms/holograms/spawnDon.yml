@@ -1,0 +1,48 @@
+location: hub:706,498:77,000:830,521
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&n&lMineBlaze.net'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&9[Вип] &f- 10 рублей'
+    height: 0.3
+  - content: '&b[Премиум] &f- 12 рублей'
+    height: 0.3
+  - content: '&e[Креатив] &f- 15 рублей'
+    height: 0.3
+  - content: '&6[Легенда] &f- 25 рублей'
+    height: 0.3
+  - content: '&a[Модер] &f- 39 рублей'
+    height: 0.3
+  - content: '&2[Админ] &f- 59 рублей'
+    height: 0.3
+  - content: '&4[Гл.Админ] &f- 69 рублей'
+    height: 0.3
+  - content: '&e[Энигма] &f- 99 рублей'
+    height: 0.3
+  - content: '&c[Император] &f- 149 рублей'
+    height: 0.3
+  - content: '&a[&lДелюкс&a] &f- 179 рублей'
+    height: 0.3
+  - content: '&b[&lПомощник&b] &f- 219 рублей'
+    height: 0.3
+  - content: '&6[&lОпка&6] &f- 279 рублей'
+    height: 0.3
+  - content: '&e[&lХелпер&e] &f- 329 рублей'
+    height: 0.3
+  - content: '&c[&lБлейз&c] &f- 479 рублей'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fПокупка донат привилегий на сайте'
+    height: 0.3
+  - content: '&c&nwww.MineBlaze.net&r &e(Скидки &l90&e%)'
+    height: 0.3
+  actions: {}

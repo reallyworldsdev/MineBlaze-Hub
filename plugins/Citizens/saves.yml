@@ -1,0 +1,148 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 2
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: a3482ddf-5847-4223-beb4-bf6dbf78d7a5
+      cached-skin-uuid-name: disteriagetcxddd
+      nameplate-visible: 'false'
+    name: ''
+    uuid: f6633c5d-6450-462f-b495-e7d035de28ad
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ygAPXC7KvJWsSJ/ByJa4Sn4mEAiAvUdYJ03GwIYRJXZ9IHQnICZwfnw3yDfqJE5PzgxVNey16rraIUedisDBytKLi6SRlq1deSzbdburDl/QagRwC1L2zf5lj+tAzNgjRPH+jU2sgrR8ManQ2TkEgr2i1K+Gl5TvgQR/Jjn7IT0f2xjM/tmNVJr0pECI+chWlHh+e5UclgEvoTPvDcG5jOT4OcxinHzQ+Z5bfGqBiLhUwImNmwuUBJno9VqHUGe4ekoh2Z6SFG25hd9nE7vyUyuR4ItBilKzm7VyEO6YHAayDNeGt/pUUru5kaaz4I4RGkyPyn1CJAa36xoBp78TMDOndWXKt3dHknEZRSSvEz7eDozSJWvVTEcLWHSt8YH8QJX0BsRmJm7PvRjArnA9kvWgjDhDCwIqG2g6MOKXsauvO/yTQwbXLnOrjE4ObjMsNER1mmXlzPa7euv5xweuCwukwhuXVa35Req5ZfOYPVjqpX9RoNSL1cQFb6/H7JWXQhSv0SlIOfAryfJetslCG2J2/VZwoUs+ssVzbQmU/9eldj9fQZ1bVHOWl9ucvH52JOhwaPZNNXGNfVvJHy7qdkEHpbnEbQfSno6LMr7hbU2LMDpar+S3j6F+k2jrIuRTB6WFmMzoKk0sss8/5AGO51lxwx7U8YgBjUboTemMxKY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTIwOTkyMTI0OCwKICAicHJvZmlsZUlkIiA6ICJhMzQ4MmRkZjU4NDc0MjIzYmViNGJmNmRiZjc4ZDdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXN0ZXJpYUdldENYREREIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZjhmMjRjMDYxNTE1OTM0ZjgwZTUxNjllNTFkMWVkMDI5NDZkMjMyZTQwMjZjZDIxOTk2NDEzNTI0NjI2ZDEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+        skinName: DisteriaGetCXDDD
+      owner:
+        uuid: 79ff8f0c-8af6-34d5-9630-d74c916ef0a7
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: -125.966736
+        world: hub
+        x: '702.4961'
+        y: '72.0'
+        z: '816.4313'
+        yaw: '-125.9667'
+        pitch: '0.0'
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      equipment: {}
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: deluxehub open anarchy_1
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          d49c13e5-869a-3b3a-903c-d839c9f5b362:
+            lastUsedId: 0
+          d01015c0-db60-38eb-9dd4-1eccdef0beef:
+            lastUsedId: 0
+    traitnames: spawned,location,mounttrait,scoreboardtrait,commandtrait,hologramtrait,inventory,equipment,age,smoothrotationtrait,skintrait,lookclose,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: a3482ddf-5847-4223-beb4-bf6dbf78d7a5
+      cached-skin-uuid-name: disteriagetcxddd
+      nameplate-visible: 'false'
+    name: ''
+    uuid: fd82bfe0-981e-4f59-aff1-09a2d325792a
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ygAPXC7KvJWsSJ/ByJa4Sn4mEAiAvUdYJ03GwIYRJXZ9IHQnICZwfnw3yDfqJE5PzgxVNey16rraIUedisDBytKLi6SRlq1deSzbdburDl/QagRwC1L2zf5lj+tAzNgjRPH+jU2sgrR8ManQ2TkEgr2i1K+Gl5TvgQR/Jjn7IT0f2xjM/tmNVJr0pECI+chWlHh+e5UclgEvoTPvDcG5jOT4OcxinHzQ+Z5bfGqBiLhUwImNmwuUBJno9VqHUGe4ekoh2Z6SFG25hd9nE7vyUyuR4ItBilKzm7VyEO6YHAayDNeGt/pUUru5kaaz4I4RGkyPyn1CJAa36xoBp78TMDOndWXKt3dHknEZRSSvEz7eDozSJWvVTEcLWHSt8YH8QJX0BsRmJm7PvRjArnA9kvWgjDhDCwIqG2g6MOKXsauvO/yTQwbXLnOrjE4ObjMsNER1mmXlzPa7euv5xweuCwukwhuXVa35Req5ZfOYPVjqpX9RoNSL1cQFb6/H7JWXQhSv0SlIOfAryfJetslCG2J2/VZwoUs+ssVzbQmU/9eldj9fQZ1bVHOWl9ucvH52JOhwaPZNNXGNfVvJHy7qdkEHpbnEbQfSno6LMr7hbU2LMDpar+S3j6F+k2jrIuRTB6WFmMzoKk0sss8/5AGO51lxwx7U8YgBjUboTemMxKY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTIwOTkyMTI0OCwKICAicHJvZmlsZUlkIiA6ICJhMzQ4MmRkZjU4NDc0MjIzYmViNGJmNmRiZjc4ZDdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXN0ZXJpYUdldENYREREIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZjhmMjRjMDYxNTE1OTM0ZjgwZTUxNjllNTFkMWVkMDI5NDZkMjMyZTQwMjZjZDIxOTk2NDEzNTI0NjI2ZDEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+        skinName: DisteriaGetCXDDD
+      owner:
+        uuid: 79ff8f0c-8af6-34d5-9630-d74c916ef0a7
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: 120.73825
+        world: hub
+        x: '710.4908'
+        y: '72.0'
+        z: '816.3353'
+        yaw: '155.7383'
+        pitch: '0.0'
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      equipment: {}
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: deluxehub open grief_1
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          d49c13e5-869a-3b3a-903c-d839c9f5b362:
+            lastUsedId: 0
+          d01015c0-db60-38eb-9dd4-1eccdef0beef:
+            lastUsedId: 0
+    traitnames: spawned,location,mounttrait,scoreboardtrait,commandtrait,hologramtrait,equipment,inventory,age,smoothrotationtrait,skintrait,lookclose,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

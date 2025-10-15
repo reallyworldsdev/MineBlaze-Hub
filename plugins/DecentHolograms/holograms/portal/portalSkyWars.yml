@@ -1,0 +1,13 @@
+location: hub:736,501:74,000:808,478
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&n&lSkyWars'
+  - content: '&fwww.MineBlaze.ru'
+    height: 0.3
+  actions: {}

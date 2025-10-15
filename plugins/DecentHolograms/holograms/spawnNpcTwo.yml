@@ -1,0 +1,13 @@
+location: hub:702,510:74,800:816,564
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lБесплатная КОНСОЛЬ'
+  - content: '&eНажмите на меня'
+    height: 0.3
+  actions: {}

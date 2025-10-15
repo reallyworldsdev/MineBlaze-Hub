@@ -1,0 +1,32 @@
+location: hub:706,527:75,000:815,685
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&n&lMineBlaze.net'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fПеред тобой &e10 порталов &fс серверами'
+    height: 0.3
+  - content: '&fВыбирай тот, который &aпонравился &fбольше других'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&b&lЭпсилон&f, &e&lЙота&f, &c&lДельта&f, &a&lСигма&f, &d&lАльфа&f, &6&lБета'
+    height: 0.3
+  - content: '&5&lГамма&f, &3&lОмега&f, &9&lГидра&f, &lОмикрон'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fПокупка донат привилегий на сайте:'
+    height: 0.3
+  - content: '&c&n&lwww.MineBlaze.net&r &e(Скидки &l90&e%)'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  actions: {}

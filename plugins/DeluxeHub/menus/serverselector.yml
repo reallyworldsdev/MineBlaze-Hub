@@ -1,0 +1,310 @@
+# Server Selector GUI
+# The ID of this inventory is 'serverselector' which you can open using the [MENU] action (e.g. "[MENU] serverselector").
+# You can create more custom GUIs, just copy this entire file and paste a new one in the menus directory. The name of the file is the menu ID.
+#
+# PLAYER HEADS
+#   You can have player heads, using player names, base64 or HeadDatabase IDs.
+#   Examples
+#     Username (must have logged into the server once)
+#       material: PLAYER_HEAD
+#       username: <name>
+#
+#     Base64
+#       material: PLAYER_HEAD
+#       base64: <base64 id>
+#
+#     HeadDatabase
+#       material: PLAYER_HEAD
+#       hdb: <hdb id>
+#
+# ITEM FLAGS
+#   You can add flags to the item (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
+#   Example:
+#    hide_attributes: true
+#       - HIDE_DESTROYS
+#       - HIDE_ENCHANTS
+#       - HIDE_PLACED_ON
+#       - HIDE_POTION_EFFECTS
+#       - HIDE_UNBREAKABLE
+#
+# ITEM ACTIONS
+#   All item actions can be found here https://wiki.lewisdev.Winter/free-resources/deluxehub/action-types
+
+# Slots of the GUI
+slots: 54
+
+# Title of the GUI
+title: "&0Выбор режима"
+
+# Automatically update open inventories.
+# This can be used to update placeholders in the GUI.
+refresh:
+  enabled: false
+  rate: 40
+
+# The items inside the GUI can be listed here
+items:
+  'epsilon':
+    display_name: '&b&lЭпсилон'
+    slot: 10
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &b%server_online%&8/&b400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-epsilon'
+    hide_attributes: true
+  'iota':
+    display_name: '&e&lЙота'
+    slot: 11
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &e%server_online%&8/&e400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-iota'
+    hide_attributes: true
+  'delta':
+    display_name: '&c&lДельта'
+    slot: 12
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &c%server_online%&8/&c400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-delta'
+    hide_attributes: true
+  'sigma':
+    display_name: '&a&lСигма'
+    slot: 13
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &a%server_online%&8/&a400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-sigma'
+    hide_attributes: true
+  'alpha':
+    display_name: '&d&lАльфа'
+    slot: 14
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &d%server_online%&8/&d400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-alpha'
+    hide_attributes: true
+  'beta':
+    display_name: '&6&lБета'
+    slot: 15
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &6%server_online%&8/&6400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-beta'
+    hide_attributes: true
+  'gamma':
+    display_name: '&5&lГамма'
+    slot: 16
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &5%server_online%&8/&5400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-gamma'
+    hide_attributes: true
+  'omega':
+    display_name: '&3&lОмега'
+    slot: 21
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &e%server_online%&8/&e400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-omega'
+    hide_attributes: true
+  'gidra':
+    display_name: '&9&lГидра'
+    slot: 22
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &9%server_online%&8/&9400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-gidra'
+    hide_attributes: true
+  'omikron':
+    display_name: '&f&lОмикрон'
+    slot: 23
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &f%server_online%&8/&f400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] surv-omikron'
+    hide_attributes: true
+    
+  'bedwars':
+    display_name: '&cКроватные войны &7(BedWars)'
+    slot: 37
+    material: red_bed
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Разрушь все кровати соперников и стань'
+    - '&7победителем арены. Почуствуй важность'
+    - '&7этой войны за кровать! Мы ждем тебя..'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] bedwars-1'
+    hide_attributes: true
+  'grief':
+    display_name: '&e&lГриферский'
+    slot: 38
+    material: tnt
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Гриферите, обманывайте и стройте ловушки'
+    - '&7воплощайте самые дикие идеи на ЭТОМ сервере'
+    - ''
+    - '&cПоддержка блоков/мобов 1.21.х'
+    - '&cГриферство поршнями и тнт работают.'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] grief-1'
+    hide_attributes: true
+  'mmystery':
+    display_name: '&cИщейка &7(Murder Mystery)'
+    slot: 39
+    material: bow
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Среди вашей компании появился маньяк.'
+    - '&7Попробуй вычислить его и убить пеервее,'
+    - '&7чем он перебьет всех Вас!'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] grief-1'
+    hide_attributes: true
+    
+  'kitpvp':
+    display_name: '&cВойна наборов &7(Kit PvP)'
+    slot: 41
+    material: leather_chestplate
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Попробуй накопить монет для покупки'
+    - '&7новых наборов и начинай убивать школоту.'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] grief-1'
+    hide_attributes: true
+  'skywars':
+    display_name: '&cБитвы на островах &7(SkyWars)'
+    slot: 42
+    material: ender_pearl
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Останься победителем в битве на островах!'
+    - '&7Собери предметы из сундуков и уничтожь'
+    - '&7остальных игроков для победы.'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] grief-1'
+    hide_attributes: true
+  'duels':
+    display_name: '&cДуэли &7(SkyWars)'
+    slot: 43
+    material: fishing_rod
+    lore:
+    - '&fwww.MineBlaze.net'
+    - ''
+    - '&7Стань мастером дуэлей, сразившись с игроками'
+    - '&7в различных режимых: от классического PvP'
+    - '&7до сражений на TheBridge, FireBall Fight,'
+    - '&7StickFight и Sumo!'
+    - ''
+    - '&a> Присоединиться'
+    actions:
+    - '[BUNGEE] grief-1'
+    hide_attributes: true

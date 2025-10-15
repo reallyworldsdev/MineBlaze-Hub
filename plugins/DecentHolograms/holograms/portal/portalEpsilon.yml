@@ -1,0 +1,13 @@
+location: hub:734,509:74,000:829,531
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&n&lЭпсилон'
+  - content: '&fwww.MineBlaze.ru'
+    height: 0.3
+  actions: {}

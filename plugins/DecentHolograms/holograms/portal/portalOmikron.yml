@@ -1,0 +1,13 @@
+location: hub:678,495:74,000:829,506
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&n&lОмикрон'
+  - content: '&fwww.MineBlaze.ru'
+    height: 0.3
+  actions: {}
